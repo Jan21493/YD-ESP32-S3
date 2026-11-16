@@ -130,6 +130,18 @@ P: Power; I: Input; O: Output; T: Can be configured as high-impedance.
 
 ![](/IMG/img11.jpg)
 
+###### ESP32-S3-WROOM-1U Pinout:
+
+The following diagram shows the pinout for the ESP32-S3-WROOM-1U variant.
+
+![](/IMG/ESP32-S3%20DevBoard%20Pinout.jpeg)
+
+###### WLAN Antenna Configuration:
+
+The antenna feed can be configured for either the internal PCB antenna or an external antenna. To use an external antenna, move the solder bridge to the marked external-antenna pad as shown. Select only one antenna connection.
+
+![](/IMG/WLAN%20Antenna%20Soldering.jpeg)
+
 ###### Official CH340 Driver Links:
 
 http://www.wch-ic.com/products/CH340.html?        ENGLISH
@@ -196,3 +208,10 @@ Some counterfeiters print labels such as YD-ESP32 on cloned boards to mislead co
 
 ESP32-series documentation lists peripheral communication interfaces such as I2C, I2S, UART, and SPI, but the pinout diagrams may not assign them to specific pins. This is because these peripheral interfaces can be mapped to GPIO pins as needed through the GPIO matrix, so a diagram does not need to show a fixed pin assignment. Any suitable GPIO can be assigned to provide the pins required by these interfaces.
 
+###### Espressif ESP32-S3 Documentation:
+
+Espressif's ESP32-S3 DevKit documentation is available here:
+
+[ESP32-S3 DevKit documentation (PDF)](/IMG/ESP-DEV-KITS-EN-MASTER-ESP32S3.pdf)
+
+For current manufacturer information, see the [ESP32-S3-DevKitC-1 User Guide](https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s3/esp32-s3-devkitc-1/user_guide_v1.1.html).
